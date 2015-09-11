@@ -1,0 +1,104 @@
+.wrapper{
+text-align:center;
+}
+.card {
+	position: relative;
+	width: 200px;
+	border: 1px solid black;
+	text-align:center;
+	vertical-align: middle;
+	display:inline-block;
+	margin:5px;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.card-round {
+	border-radius: 200px;
+}
+
+.hirogana-symbol{
+	font-size: 100px;
+	line-height: 170px;
+	-webkit-user-select: none;
+}
+.description {
+	background: #EFF0CC;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width:100%;
+	line-height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	-webkit-user-select: none;
+	-webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.description-hiden{
+	bottom: -40px;
+}
+.description-hiden:hover{
+	-webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+	bottom: 0!important;
+}
+
+/* Small size */
+.card-small {
+	width: 100px;
+	padding-bottom: 20px;
+}
+
+.card-small .hirogana-symbol {
+	font-size: 50px;
+	line-height: 80px;
+}
+
+.card-small .description {
+	line-height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.card-small .description-hiden {
+	bottom: -25px;
+}
+
+/* Large size */
+.card-large {
+	width: 400px;
+	padding-bottom: 40px;
+}
+
+.card-large  i {
+	margin-left: -40px;
+}
+
+.card-large .hirogana-symbol {
+	font-size: 300px;
+	line-height: 360px;
+}
+
+.card-large .description {
+	line-height: 60px;
+	font-size: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.card-large .description-hiden {
+	bottom: -60px;
+}
+
+
+@media only screen and (max-device-width: 320px) {
+	.card {
+		width: 320px;
+	}
+}
