@@ -34,20 +34,20 @@ text-align:center;
 	padding-bottom: 10px;
 	font-size: 30px;
 	-webkit-user-select: none;
-	-webkit-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    transition-duration: 0.2s;
 }
 .description-hiden{
 	-webkit-filter: blur(20px);
+	-moz-filter: blur(20px);
+  	-o-filter: blur(20px);
+  	-ms-filter: blur(20px);
+  	filter: blur(20px);
 }
 .description-hiden:hover{
-	-webkit-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    transition-duration: 0.2s;
 	-webkit-filter: blur(0);
+	-moz-filter: blur(0);
+  	-o-filter: blur(0);
+  	-ms-filter: blur(0);
+  	filter: blur(0);
 }
 
 /* Small size */
