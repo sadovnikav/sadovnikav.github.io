@@ -159,9 +159,28 @@ function getBySymbol(symbol) {
 
 function nextKana() {
 	var card = document.getElementById('hirogana-card');
+	
+	// Создаём клона и вставляем поверх карты.
+	var clncard = card.cloneNode(true);
+	clncard.id = 'clone';
+	clncard.style.position = 'absolute';
+	clncard.style.zIndex = 1000;
+	card.parentNode.insertBefore(clncard, card);
+	
+	// Выставляем следущую карту.
 	var kana = getRandomKana();
 	card.getElementsByTagName('i')[0].innerHTML = kana.symbol;
 	card.getElementsByTagName('div')[0].innerHTML = kana.description;
+	
+	// Запускаем анимацию.
+	setTimeout(function() {
+		clncard.style.marginLeft = -1*Math.max(window.screen.availWidth, 1000) + 'px';
+	}, 100);
+	
+	// Запускаем таймер на удаление клона.
+	setTimeout(function() {
+		card.parentNode.removeChild(clncard);
+	}, 2000);
 }
 
 function printAll() {
