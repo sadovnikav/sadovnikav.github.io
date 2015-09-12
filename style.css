@@ -1,16 +1,25 @@
 body {
-margin: 0;
-padding: 0;
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", Times, serif;
+	background-image: url(img/site-bg.jpg);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .wrapper{
 	text-align:center;
 	margin-top: 5px;
 }
+
 .card {
 	background: #ffffff;
 	position: relative;
 	width: 200px;
+	height: 200px;
 	border: 1px solid black;
 	text-align:center;
 	vertical-align: middle;
@@ -19,6 +28,7 @@ padding: 0;
 	overflow: hidden;
 	padding-bottom: 30px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	opacity:0.9;
 	
 	-webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -27,17 +37,22 @@ padding: 0;
     transition: all 0.5s ease-in-out;
 }
 
+.cards-separate .card {
+	margin: 5px;
+}
+
 .card-round {
 	border-radius: 200px;
 }
 
-.hirogana-symbol{
+.card-symbol{
 	font-size: 100px;
 	line-height: 170px;
 	-webkit-user-select: none;
 }
+
 .description {
-	background: #EFF0CC;
+	background: #EFF0CC url(img/desc-bg.png) repeat-x;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -48,6 +63,17 @@ padding: 0;
 	font-size: 30px;
 	-webkit-user-select: none;
 }
+.description-small {
+	font-size: 14px;
+}
+.card-symbol-hiden{
+	-webkit-filter: blur(60px);
+	-moz-filter: blur(20px);
+  	-o-filter: blur(20px);
+  	-ms-filter: blur(20px);
+  	filter: blur(20px);
+}
+
 .description-hiden{
 	-webkit-filter: blur(20px);
 	-moz-filter: blur(20px);
@@ -55,7 +81,8 @@ padding: 0;
   	-ms-filter: blur(20px);
   	filter: blur(20px);
 }
-.description-hiden:hover{
+
+.card-symbol-hiden:hover, .description-hiden:hover{
 	-webkit-filter: blur(0);
 	-moz-filter: blur(0);
   	-o-filter: blur(0);
@@ -66,10 +93,11 @@ padding: 0;
 /* Small size */
 .card-small {
 	width: 100px;
+	height: 100px;
 	padding-bottom: 20px;
 }
 
-.card-small .hirogana-symbol {
+.card-small .card-symbol {
 	font-size: 50px;
 	line-height: 80px;
 }
@@ -84,6 +112,7 @@ padding: 0;
 /* Large size */
 .card-large {
 	width: 400px;
+	height: 400px;
 	padding-bottom: 40px;
 }
 
@@ -91,7 +120,7 @@ padding: 0;
 	margin-left: -40px;
 }
 
-.card-large .hirogana-symbol {
+.card-large .card-symbol {
 	font-size: 300px;
 	line-height: 360px;
 }
@@ -101,4 +130,8 @@ padding: 0;
 	font-size: 60px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+a.card:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,1);
 }
