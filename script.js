@@ -174,7 +174,8 @@ function nextKana() {
 	
 	// Запускаем анимацию.
 	setTimeout(function() {
-		clncard.style.marginLeft = -1*Math.max(window.screen.availWidth, 1000) + 'px';
+		var offset = -1*Math.max(window.screen.availWidth, card.offsetWidth) + 'px';
+		clncard.style.transform = 'translateX(' + offset + ')';
 	}, 100);
 	
 	// Запускаем таймер на удаление клона.
