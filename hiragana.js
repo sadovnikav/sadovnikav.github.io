@@ -167,6 +167,7 @@
 		clncard.id = 'clone';
 		clncard.style.position = 'absolute';
 		clncard.style.zIndex = 1000;
+		clncard.style.opacity = 1;
 		card.parentNode.insertBefore(clncard, card);
 	
 		// Выставляем следущую карту.
