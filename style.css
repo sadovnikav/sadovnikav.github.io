@@ -1,5 +1,5 @@
 .wrapper{
-text-align:center;
+	text-align:center;
 }
 .card {
 	position: relative;
@@ -88,4 +88,14 @@ text-align:center;
 	font-size: 60px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.pos-out-screen {
+	position: absolute;
+	left: -400px;
+	top: 0;
+	-webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
 }
