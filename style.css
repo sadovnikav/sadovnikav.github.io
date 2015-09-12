@@ -40,14 +40,14 @@ text-align:center;
     transition-duration: 0.2s;
 }
 .description-hiden{
-	bottom: -40px;
+	-webkit-filter: blur(20px);
 }
 .description-hiden:hover{
 	-webkit-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
     transition-duration: 0.2s;
-	bottom: 0!important;
+	-webkit-filter: blur(0);
 }
 
 /* Small size */
@@ -67,9 +67,6 @@ text-align:center;
 	padding-bottom: 5px;
 }
 
-.card-small .description-hiden {
-	bottom: -25px;
-}
 
 /* Large size */
 .card-large {
@@ -91,15 +88,4 @@ text-align:center;
 	font-size: 60px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-.card-large .description-hiden {
-	bottom: -60px;
-}
-
-
-@media only screen and (max-device-width: 320px) {
-	.card {
-		width: 320px;
-	}
 }
