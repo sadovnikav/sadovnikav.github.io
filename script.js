@@ -174,7 +174,7 @@ function nextKana() {
 	
 	// Запускаем анимацию.
 	setTimeout(function() {
-		var offset = -1*Math.max(window.screen.availWidth, card.offsetWidth) + 'px';
+		var offset = -1*document.body.clientWidth - 5 + 'px';
 		clncard.style.transform = 'translateX(' + offset + ')';
 	}, 100);
 	
