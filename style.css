@@ -46,6 +46,7 @@ a {
 }
 
 .card-symbol{
+	font-family: 'MS Mincho';
 	font-size: 100px;
 	line-height: 170px;
 	-webkit-user-select: none;
@@ -67,27 +68,18 @@ a {
 	font-size: 14px;
 }
 .card-symbol-hiden{
-	-webkit-filter: blur(60px);
-	-moz-filter: blur(20px);
-  	-o-filter: blur(20px);
-  	-ms-filter: blur(20px);
-  	filter: blur(20px);
+	color: transparent;
+	text-shadow: 0 0 100px rgba(0,0,0,0.95);
 }
 
 .description-hiden{
-	-webkit-filter: blur(20px);
-	-moz-filter: blur(20px);
-  	-o-filter: blur(20px);
-  	-ms-filter: blur(20px);
-  	filter: blur(20px);
+	color: transparent;
+	text-shadow: 0 0 30px rgba(0,0,0,0.95);
 }
 
 .card-symbol-hiden:hover, .description-hiden:hover{
-	-webkit-filter: blur(0);
-	-moz-filter: blur(0);
-  	-o-filter: blur(0);
-  	-ms-filter: blur(0);
-  	filter: blur(0);
+	color: inherit;
+	text-shadow: none;
 }
 
 /* Small size */
@@ -104,8 +96,9 @@ a {
 
 .card-small .description {
 	line-height: 20px;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom: 5px;
+	font-size: 20px;
 }
 
 
@@ -121,14 +114,14 @@ a {
 }
 
 .card-large .card-symbol {
-	font-size: 300px;
+	font-size: 200px;
 	line-height: 360px;
 }
 
 .card-large .description {
 	line-height: 60px;
 	font-size: 60px;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
