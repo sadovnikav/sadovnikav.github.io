@@ -19,7 +19,7 @@
 		description: 'КА'
 	},{
 		symbol: 'き',
-		description: 'КА'
+		description: 'КИ'
 	},{
 		symbol: 'く',
 		description: 'КУ'
