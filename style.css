@@ -46,7 +46,7 @@ a {
 }
 
 .card-symbol{
-	font-family: 'MS Mincho';
+	/*font-family: 'MS Mincho'; красиво, но сложно для обучения*/
 	font-size: 100px;
 	line-height: 170px;
 	-webkit-user-select: none;
