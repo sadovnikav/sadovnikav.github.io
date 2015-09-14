@@ -1,229 +1,325 @@
 ﻿Katakana = {
 	_kanas: [{
 		symbol: 'ァ',
-		description: 'а'
+		description: 'А'
 	},{
 		symbol: 'ィ',
-		description: 'и'
+		description: 'И'
 	},{
 		symbol: 'ゥ',
-		description: 'у'
+		description: 'У'
 	},{
 		symbol: 'ェ',
-		description: 'э'
+		description: 'Э'
 	},{
 		symbol: 'ォ',
-		description: 'о'
+		description: 'О'
 	},{
 		symbol: 'カ',
-		description: 'ка'
+		description: 'КА'
 	},{
 		symbol: 'ガ',
-		description: 'га'
+		description: 'ГА'
 	},{
 		symbol: 'キ',
-		description: 'ки'
+		description: 'КИ'
 	},{
 		symbol: 'ギ',
-		description: 'ги'
+		description: 'ГИ'
 	},{
 		symbol: 'ク',
-		description: 'ку'
+		description: 'КУ'
 	},{
 		symbol: 'グ',
-		description: 'гу'
+		description: 'ГУ'
 	},{
 		symbol: 'ケ',
-		description: 'кэ'
+		description: 'КЭ'
 	},{
 		symbol: 'ゲ',
-		description: 'гэ'
+		description: 'ГЭ'
 	},{
 		symbol: 'コ',
-		description: 'ко'
+		description: 'КО'
 	},{
 		symbol: 'ゴ',
-		description: 'го'
+		description: 'ГО'
+	},{
+		symbol: 'キャ',
+		description: 'КЯ'
+	},{
+		symbol: 'ギャ',
+		description: 'ГЯ'
+	},{
+		symbol: 'キュ',
+		description: 'КЮ'
+	},{
+		symbol: 'ギュ',
+		description: 'ГЮ'
+	},{
+		symbol: 'キョ',
+		description: 'КЁ'
+	},{
+		symbol: 'ギョ',
+		description: 'ГЁ'
 	},{
 		symbol: 'サ',
-		description: 'са'
+		description: 'СА'
 	},{
 		symbol: 'ザ',
-		description: 'за'
+		description: 'ДЗА'
 	},{
 		symbol: 'シ',
-		description: 'си'
+		description: 'СИ'
 	},{
 		symbol: 'ジ',
-		description: 'зи'
+		description: 'ДЗИ'
 	},{
 		symbol: 'ス',
-		description: 'су'
+		description: 'СУ'
 	},{
 		symbol: 'ズ',
-		description: 'зу'
+		description: 'ДЗУ'
 	},{
 		symbol: 'セ',
-		description: 'сэ'
+		description: 'СЭ'
 	},{
 		symbol: 'ゼ',
-		description: 'зэ'
+		description: 'ДЗЭ'
 	},{
 		symbol: 'ソ',
-		description: 'со'
+		description: 'СО'
 	},{
 		symbol: 'ゾ',
-		description: 'зо'
+		description: 'ДЗО'
+	},{
+		symbol: 'シャ',
+		description: 'СЯ'
+	},{
+		symbol: 'ジャ',
+		description: 'ДЗЯ'
+	},{
+		symbol: 'シュ',
+		description: 'СЮ'
+	},{
+		symbol: 'ジュ',
+		description: 'ДЗЮ'
+	},{
+		symbol: 'ショ',
+		description: 'СЁ'
+	},{
+		symbol: 'ジョ',
+		description: 'ДЗЁ'
 	},{
 		symbol: 'タ',
-		description: 'та'
+		description: 'ТА'
 	},{
 		symbol: 'ダ',
-		description: 'да'
+		description: 'ДА'
 	},{
 		symbol: 'チ',
-		description: 'ти'
+		description: 'ТИ/ЧИ'
 	},{
 		symbol: 'ヂ',
-		description: 'ди'
+		description: 'ДЗИ'
 	},{
 		symbol: 'ッ',
-		description: 'цу'
+		description: 'ТУ/ЦУ'
 	},{
 		symbol: 'ヅ',
-		description: 'ду'
+		description: 'ДЗУ'
 	},{
 		symbol: 'テ',
-		description: 'тэ'
+		description: 'ТЭ'
 	},{
 		symbol: 'デ',
-		description: 'дэ'
+		description: 'ДЭ'
 	},{
 		symbol: 'ト',
-		description: 'то'
+		description: 'ТО'
 	},{
 		symbol: 'ド',
-		description: 'до'
+		description: 'ДО'
+	},{
+		symbol: 'チャ',
+		description: 'ТЯ'
+	},{
+		symbol: 'チュ',
+		description: 'ТЮ'
+	},{
+		symbol: 'チョ',
+		description: 'ТЁ'
 	},{
 		symbol: 'ナ',
-		description: 'на'
+		description: 'НА'
 	},{
 		symbol: 'ニ',
-		description: 'ни'
+		description: 'НИ'
 	},{
 		symbol: 'ヌ',
-		description: 'ну'
+		description: 'НУ'
 	},{
 		symbol: 'ネ',
-		description: 'нэ'
+		description: 'НЭ'
 	},{
 		symbol: 'ノ',
-		description: 'но'
+		description: 'НО'
+	},{
+		symbol: 'ニャ',
+		description: 'НЯ'
+	},{
+		symbol: 'ニュ',
+		description: 'НЮ'
+	},{
+		symbol: 'ニョ',
+		description: 'НЁ'
 	},{
 		symbol: 'ハ',
-		description: 'ха'
+		description: 'ХА'
 	},{
 		symbol: 'バ',
-		description: 'ба'
+		description: 'БА'
 	},{
 		symbol: 'パ',
-		description: 'па'
+		description: 'ПА'
 	},{
 		symbol: 'ヒ',
-		description: 'хи'
+		description: 'ХИ'
 	},{
 		symbol: 'ビ',
-		description: 'би'
+		description: 'БИ'
 	},{
 		symbol: 'ピ',
-		description: 'пи'
+		description: 'ПИ'
 	},{
 		symbol: 'フ',
-		description: 'фу'
+		description: 'ФУ'
 	},{
 		symbol: 'ブ',
-		description: 'бу'
+		description: 'БУ'
 	},{
 		symbol: 'プ',
-		description: 'пу'
+		description: 'ПУ'
 	},{
 		symbol: 'ヘ',
-		description: 'хэ'
+		description: 'ХЭ'
 	},{
 		symbol: 'ベ',
-		description: 'бэ'
+		description: 'БЭ'
 	},{
 		symbol: 'ペ',
-		description: 'пэ'
+		description: 'ПЭ'
 	},{
 		symbol: 'ホ',
-		description: 'хо'
+		description: 'ХО'
 	},{
 		symbol: 'ボ',
-		description: 'бо'
+		description: 'БО'
 	},{
 		symbol: 'ポ',
-		description: 'по'
+		description: 'ПО'
+	},{
+		symbol: 'ヒャ',
+		description: 'ХЯ'
+	},{
+		symbol: 'ビャ',
+		description: 'БЯ'
+	},{
+		symbol: 'ピャ',
+		description: 'ПЯ'
+	},{
+		symbol: 'ヒュ',
+		description: 'ХЮ'
+	},{
+		symbol: 'ビュ',
+		description: 'БЮ'
+	},{
+		symbol: 'ピュ',
+		description: 'ПЮ'
+	},{
+		symbol: 'ヒョ',
+		description: 'ХЁ'
+	},{
+		symbol: 'ビョ',
+		description: 'БЁ'
+	},{
+		symbol: 'ピョ',
+		description: 'ПЁ'
 	},{
 		symbol: 'マ',
-		description: 'ма'
+		description: 'МА'
 	},{
 		symbol: 'ミ',
-		description: 'ми'
+		description: 'МИ'
 	},{
 		symbol: 'ム',
-		description: 'му'
+		description: 'МУ'
 	},{
 		symbol: 'メ',
-		description: 'мэ'
+		description: 'МЭ'
 	},{
 		symbol: 'モ',
-		description: 'мо'
+		description: 'МО'
+	},{
+		symbol: 'ミャ',
+		description: 'МЯ'
+	},{
+		symbol: 'ミュ',
+		description: 'МЮ'
+	},{
+		symbol: 'ミョ',
+		description: 'МЁ'
 	},{
 		symbol: 'ャ',
-		description: 'я'
+		description: 'Я'
 	},{
 		symbol: 'ュ',
-		description: 'ю'
+		description: 'Ю'
 	},{
 		symbol: 'ョ',
-		description: 'ё'
+		description: 'Ё'
 	},{
 		symbol: 'ラ',
-		description: 'ра'
+		description: 'РА'
 	},{
 		symbol: 'リ',
-		description: 'ри'
+		description: 'РИ'
 	},{
 		symbol: 'ル',
-		description: 'ру'
+		description: 'РУ'
 	},{
 		symbol: 'レ',
-		description: 'рэ'
+		description: 'РЭ'
 	},{
 		symbol: 'ロ',
-		description: 'ро'
+		description: 'РО'
+	},{
+		symbol: 'リャ',
+		description: 'РЯ'
+	},{
+		symbol: 'リュ',
+		description: 'РЮ'
+	},{
+		symbol: 'リョ',
+		description: 'РЁ'
 	},{
 		symbol: 'ヮ',
-		description: 'ва'
+		description: 'ВА'
 	},{
 		symbol: 'ヰ',
-		description: 'ви'
+		description: 'ВИ'
 	},{
 		symbol: 'ヱ',
-		description: 'вэ'
+		description: 'ВЭ'
 	},{
 		symbol: 'ヲ',
-		description: 'во'
+		description: 'ВО'
 	},{
 		symbol: 'を',
-		description: 'о'
+		description: 'О'
 	},{
 		symbol: 'ン',
-		description: 'н'
-	},{
-		symbol: 'ヶ',
-		description: 'кэ'
+		description: 'Н'
 	}],
 	_cardTemplate: "<div class='card card-small'><i class='card-symbol'>%kana.symbol%</i><div class='description'>%kana.description%</div></div>",
 	
