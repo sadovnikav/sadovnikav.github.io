@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", Times, serif;
+	background-image: url(img/site-bg.jpg);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.wrapper{
+	text-align:center;
+	margin-top: 5px;
+}
+
+.card {
+	background: #ffffff;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	text-align:center;
+	vertical-align: middle;
+	display:inline-block;
+	margin:0;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	opacity:0.9;
+	
+	-webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.cards-separate .card {
+	margin: 5px;
+}
+
+.card-round {
+	border-radius: 200px;
+}
+
+.card-symbol{
+	/*font-family: 'MS Mincho'; красиво, но сложно для обучения*/
+	font-size: 100px;
+	line-height: 200px;
+	-webkit-user-select: none;
+	display: block;
+}
+
+.description {
+	background: #EFF0CC url(img/desc-bg.png) repeat-x;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width:100%;
+	font-size: 30px;
+	-webkit-user-select: none;
+	text-transform: lowercase;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+.title {
+	background: #EFF0CC url(img/title-bg.png) left bottom repeat-x;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	font-size: 30px;
+	-webkit-user-select: none;
+	text-transform: lowercase;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+.description-small {
+	font-size: 14px;
+}
+.card-symbol-hiden{
+	color: transparent;
+	text-shadow: 0 0 100px rgba(0,0,0,0.95);
+}
+
+.description-hiden, .title-hiden{
+	color: transparent;
+	text-shadow: 0 0 30px rgba(0,0,0,0.95);
+}
+
+.card-symbol-hiden:hover, .description-hiden:hover, .title-hiden:hover{
+	color: inherit;
+	text-shadow: none;
+}
+
+/* Small size */
+.card-small {
+	width: 100px;
+	height: 100px;
+}
+
+.card-small .card-symbol {
+	font-size: 50px;
+	line-height: 100px;
+}
+
+.card-small .description, .card-small .title {
+	font-size: 15px;
+}
+
+
+/* Large size */
+.card-large {
+	width: 400px;
+	height: 400px;
+}
+
+.card-large  i {
+	margin-left: -40px;
+}
+
+.card-large .card-symbol {
+	font-size: 200px;
+	line-height: 400px;
+}
+
+.card-large .description, .card-large .title {
+	font-size: 60px;
+}
+
+a.card:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+}
